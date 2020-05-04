@@ -4,17 +4,17 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>7.0</ProjectVersion>
     <ToolchainName>com.Atmel.AVRGCC8.C</ToolchainName>
-    <ProjectGuid>{91e1a22c-5980-4abf-abf3-f9bbd12e0c3d}</ProjectGuid>
-    <avrdevice>AVR48DA128</avrdevice>
+    <ProjectGuid>{7c681a8b-0fc9-43f3-826a-4a63e7705afc}</ProjectGuid>
+    <avrdevice>AVR128DA48</avrdevice>
     <avrdeviceseries>none</avrdeviceseries>
     <OutputType>Executable</OutputType>
     <Language>C</Language>
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>ZCD_FrequencyDetection</AssemblyName>
-    <Name>ZCD_FrequencyDetection</Name>
-    <RootNamespace>ZCD_FrequencyDetection</RootNamespace>
+    <AssemblyName>ZCD_FreeRunning</AssemblyName>
+    <Name>ZCD_FreeRunning</Name>
+    <RootNamespace>ZCD_FreeRunning</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
@@ -30,21 +30,21 @@
     <EraseKey />
     <AsfFrameworkConfig>
       <framework-data xmlns="">
-  <options />
-  <configurations />
-  <files />
-  <documentation help="" />
-  <offline-documentation help="" />
-  <dependencies>
-    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.46.0" />
-  </dependencies>
-</framework-data>
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.46.0" />
+        </dependencies>
+      </framework-data>
     </AsfFrameworkConfig>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
       <AvrGcc>
-  <avrgcc.common.Device>-mmcu=avr48da128 -B "%24(PackRepoDir)\Atmel\AVRDx_DFP\1.0.7\gcc\dev\avr48da128"</avrgcc.common.Device>
+  <avrgcc.common.Device>-mmcu=avr128da48 -B "%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.18\gcc\dev\avr128da48"</avrgcc.common.Device>
   <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
   <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
   <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
@@ -59,7 +59,7 @@
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\Atmel\AVRDx_DFP\1.0.7\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.18\include</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
@@ -73,7 +73,7 @@
   </avrgcc.linker.libraries.Libraries>
   <avrgcc.assembler.general.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\Atmel\AVRDx_DFP\1.0.7\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.18\include</Value>
     </ListValues>
   </avrgcc.assembler.general.IncludePaths>
 </AvrGcc>
@@ -82,7 +82,7 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
       <AvrGcc>
-  <avrgcc.common.Device>-mmcu=avr48da128 -B "%24(PackRepoDir)\Atmel\AVRDx_DFP\1.0.7\gcc\dev\avr48da128"</avrgcc.common.Device>
+  <avrgcc.common.Device>-mmcu=avr128da48 -B "%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.18\gcc\dev\avr128da48"</avrgcc.common.Device>
   <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
   <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
   <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
@@ -97,7 +97,7 @@
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\Atmel\AVRDx_DFP\1.0.7\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.18\include</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -112,7 +112,7 @@
   </avrgcc.linker.libraries.Libraries>
   <avrgcc.assembler.general.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\Atmel\AVRDx_DFP\1.0.7\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.18\include</Value>
     </ListValues>
   </avrgcc.assembler.general.IncludePaths>
   <avrgcc.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcc.assembler.debugging.DebugLevel>
