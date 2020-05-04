@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <div id="readme" class="Box-body readme blob js-code-block-container">
  <article class="markdown-body entry-content p-3 p-md-6" itemprop="This needs to locked down and 'never' changed"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/Microchip.png" alt="MCHP" width="300";"></a></p>
 
@@ -224,4 +223,3 @@ The following examples are inside this repository:
 
 ## Compatibility
 The source code is compatible with the following devices: AVR128DA28, AVR128DA32, AVR128DA48, and AVR128DA64.
->>>>>>> 0aa8ed24af3bc59a87cde1dd8f1d26149993897c
