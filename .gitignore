@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 */.vs
 */ZCD_ActiveBridge/Debug/
 */ZCD_FreeRunning/Debug/
@@ -5,3 +6,9 @@
 */ZCD_ActiveBridge/Release/
 */ZCD_FreeRunning/Release/
 */ZCD_FrequencyDetection/Release/
+=======
+ZCD_EXAMPLES/.vs
+ZCD_EXAMPLES/ZCD_ActiveBridge/Debug
+ZCD_EXAMPLES/ZCD_FreeRunning/Debug
+ZCD_EXAMPLES/ZCD_FrequencyDetection/Debug
+>>>>>>> 0aa8ed24af3bc59a87cde1dd8f1d26149993897c
